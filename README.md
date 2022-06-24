@@ -41,7 +41,8 @@ Creación de Azure Monitor para vigilar recursos
 
 5. Se abrirá una pestaña donde se deberá indicar el recurso el del cual se emitirá la alerta, una vez seleccionado se da click en "Listo". Si se tiene un ámbito, también se puede seleccionar.
 
-6. En la pestaña superior se cambia al apartado de condición. Se abrirá una nueva pestaña donde se debe buscar y seleccionar la condición que se debe cumplir para mandar la alerta (uso de CPU, uso de Red, etc.). Una vez seleccionado se mostrará más opciones en la parte baja donde se pueden especificar los parámetros (mayor que, menor que, etc.) y la frecuencia de evaluación. Una vez seleccionados los parámetros se da click en "Listo".
+6. En la pestaña superior se cambia al apartado de condición. Se abrirá una nueva pestaña donde se debe buscar y seleccionar la condición que se debe cumplir para mandar la alerta (uso de CPU, uso de Red, etc.). Una vez seleccionado se mostrará más opciones en la parte baja donde se pueden especificar los parámetros (mayor que, menor que, etc.) y la frecuencia de evaluación. También es necesario usar un grupo de acciones. Una vez seleccionados los parámetros se da click en "Listo".
+*Nota: si se desea crear una alerta, es necesario también usar o, en su defecto, crear un grupo de acciones*
 
 *Nota: cada alerta tiene un pequeño costo*
 
